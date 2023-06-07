@@ -22,7 +22,8 @@ public class Decryption{
         super();
         this.hedef = hedef;
     }
-
+    
+    //DESIFRE FONKSIYONU
     public void decryptor() throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, IOException,
             IllegalBlockSizeException, BadPaddingException {
         File file = new File(hedef);
